@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina sobre mi</title>
+        <style>
+                h1{
+                    color:rgb(247, 75, 75);}
+                h2{
+                    color:rgb(240, 52, 52);}
+                h4{
+                    color:rgb(43, 19, 19);}
+                *{
+                    color:rgb(241, 116, 116);}
+            html body{
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: grid;
+                place-items: center;
+                zoom: 125%;
+                color: rgb(182, 78, 78);
+                text-shadow: 2px 2px 6px rgba(192, 20, 20, 0.92);
+            }
+            .fondo {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url('imagenes estatica/descarga.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                opacity: 0.8;
+                z-index: -1;
+            }
+            .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(49, 5, 5, 0.84);
+                z-index: -1;
+            }
+            .marco{
+                border: 8px double rgb(54, 9, 9);
+                border-radius: 15px;
+                box-shadow: 0 0 12px rgba(252, 3, 3, 0.808);
+                width: 200px;
+            }
+            .marco2{
+                border: 8px double rgb(54, 9, 9);
+                border-radius: 15px;
+                box-shadow: 0 0 12px rgba(235, 6, 6, 0.747);
+                width: 300px;
+            }
+            img {
+                filter: brightness(68%);
+            }
+            .centrada{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenidos a mi página!.·✩·.¸⍣✩</h1>
+        </header>
+        <div class="fondo"></div>
+        <div class="overlay"></div>
+        <h4>
+            <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="Email" name="email"><br><br>
+            <button type="submit">Enviar</button>
+            </form>
+        </h4>
+        <section>
+        <h1 style="margin-left: 65px;">BiografíaƸ̵̡Ӝ̵̨̄Ʒ</h1>
+        <p style=width:300px;>
+            <strong>Mi nombre es Luisana Juanita Parra, soy una estudiante de la EPET20  y tengo 17 años, nací en Argentina Centenario
+            y mi familia esta compuesta principalmente de dos integrantes, mi mamá Mariela Soledad Echandia y mi hermana mayor Avril Angelina Parra,
+            despues esta mi papá Carlos Andres Parra y mis tios que son muy importantes para mi llamados Carla Florencia Parra y Nicolas Mariano Aguilar.
+           </strong>
+            
+           <img src="imagenes estatica/yoo_luisana.jpg" style="transform: translateX(40px);" width="200" height="250" class="marco"></img>
+        </p>
+        </section>
+        <h2>Mis hobbies𓂀</h2>
+        <ul>
+            <li><strong><em>Dibujar</em></strong></li>
+            <li><strong><em>Pasear a mi perra</em></strong></li>
+            <li><strong><em>Ver peliculas</em></strong></li>
+            <li><strong><em>Comer</em></strong></li>
+        </ul>
+        <section>
+            <h2 style="margin-left: 400px;">Mis peliculas favoritas·.★·</h2>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+            <div style="width: 250px; text-align: center;">
+            <img src="imagenes estatica/rata.jpg" width="250" height="300"></img>
+                <h4><em>Ratatouille (2007)</em></h4>
+                <h4><em>Dirección: Brad Bird (y Jan Pinkava como co-director)</em></h4>
+                <h4><em>Producción: Pixar Animation Studio</em></h4>
+                <h4><em>Distribución: Walt Disney Pictures</em></h4>
+                <h4><em>Género: Animación, Comedia, Aventura</em></h4>
+                <h4><em>Duración: 111 minutos</em></h4>
+                <h4><em>Idioma original: Inglés</em></h4>
+                <h4><em>Clasificación: Apta para todo público</em></h4>
+            </div>
+            <div style="width: 250px; text-align: center;">
+            <img src="imagenes estatica/perfect blue.jpg" width="250" height="300"></img>
+                <h4><em> パーフェクトブルー (1997)</em></h4>
+                <h4><em>Dirección: Satoshi Kon</em></h4>
+                <h4><em>Guión: Sadayuki Murai (basado en la novela de Yoshikazu Takeuchi)</em></h4>
+                <h4><em>Estudio: Madhouse</em></h4>
+                <h4><em>Duración: 81 minutos</em></h4>
+                <h4><em>Idioma original: Japones</em></h4>
+                <h4><em>Clasificación: +18 (contenidos fuertes, violencia y temas psicológicos)</em></h4>
+            </div>
+            <div style="width: 250px; text-align: center;">
+            <img src="imagenes estatica/el secreto de sus ojos.jpg" width="250" height="300"></img>
+                <h4><em>El secreto de sus ojos (2009)</em></h4>
+                <h4><em>Dirección: Juan José Campanella</em></h4>
+                <h4><em>Guión: Juan José Campanella y Eduardo Sacheri (basado en la novela La pregunta de sus ojos de Sacheri)</em></h4>
+                <h4><em>Producción: Argentina/España</em></h4>
+                <h4><em>Género: Thriller, Drama, Crimen, Romance</em></h4>
+                <h4><em>Duración: 129 minutos</em></h4>
+                <h4><em>Idioma original: Español</em></h4>
+                <h4><em>Clasificación: +13</em></h4>
+            </div>
+            <div style="width: 250px; text-align: center;">
+            <img src="imagenes estatica/howls castle.jpg" width="250" height="300"></img>
+                <h4><em> ハウルの動く城 (2004)</em></h4>
+                <h4><em>Dirección: Hayao Miyazaki</em></h4>
+                <h4><em>Basada en: La novela Howl's Moving Castle (1986) de Diana Wynne Jones</em></h4>
+                <h4><em>Estudio: Studio Ghibli</em></h4>
+                <h4><em>Género: Animación, Fantasía, Aventura, Romance</em></h4>
+                <h4><em>Duración: 119 minutos</em></h4>
+                <h4><em>Idioma original: Japones</em></h4>
+                <h4><em>Clasificación: +10</em></h4>
+            </div>
+            </div>
+        </section>
+        <h2>Lista de mis comidas preferidasꕥ</h2>
+        <ul>
+            <li><strong><em><a href="https://www.google.com/search?q=hamburguesa&sca_esv=a980cca8ef080035&rlz=1C1ONGR_esAR1051AR1051&udm=2&biw=1366&bih=633&sxsrf=AHTn8zq-v33_z6cR7jWUC5qsz758-vxAOw%3A1747291502803&ei=bo0laLfoMOXD5OUPo9TO4QE&oq=hamb&gs_lp=EgNpbWciBGhhbWIqAggBMgcQIxgnGMkCMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMgwQABiABBhDGIoFGAoyChAAGIAEGEMYigVIyB1QlQVYqgpwAXgAkAECmAHpBqAByxGqAQkyLTEuNS0yLjG4AQHIAQD4AQGYAgOgAqUJqAIKwgIKECMYJxjJAhjqAsICCxAAGIAEGLEDGIMBwgIOEAAYgAQYsQMYgwEYigXCAggQABiABBixA5gDJ5IHCTEuMC4xLjYtMaAHqxuyBwcyLTEuNi0xuAf-CA&sclient=img" title="hamburguesa">Hamburguesa</a></em></strong></li>
+            <li><strong><em><a href="https://www.google.com/search?q=pastel+de+papa&sca_esv=a980cca8ef080035&rlz=1C1ONGR_esAR1051AR1051&udm=2&biw=1366&bih=633&sxsrf=AHTn8zq1cIIejDfpn8McAFFlftEOG_HQRQ%3A1747291818239&ei=qo4laO25DrH25OUPzMeh6Ac&oq=pas&gs_lp=EgNpbWciA3BhcyoCCAgyBxAjGCcYyQIyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyEBAAGIAEGLEDGEMYgwEYigUyChAAGIAEGEMYigVI6CJQ7QZY4wlwAXgAkAEAmAF5oAHVAqoBAzAuM7gBAcgBAPgBAZgCBKAClgOoAgrCAgoQIxgnGMkCGOoCmAMMkgcDMS4zoAfXFLIHAzAuM7gHigM&sclient=img" title="pasteldepapa">Pastel de papa</a></em></strong></li>
+            <li><strong><em><a href="https://www.google.com/search?q=arroz+con+tuco+y+carne&sca_esv=a980cca8ef080035&rlz=1C1ONGR_esAR1051AR1051&udm=2&biw=1366&bih=633&sxsrf=AHTn8zrQxlhPtMZvVpurn4DT7Edv0suchg%3A1747292285772&ei=fZAlaM_4LvvQ1sQPu5WLwQ0&ved=0ahUKEwiPq4yA86SNAxV7qJUCHbvKItgQ4dUDCBE&uact=5&oq=arroz+con+tuco+y+carne&gs_lp=EgNpbWciFmFycm96IGNvbiB0dWNvIHkgY2FybmUyBxAjGCcYyQIyBRAAGIAESPATUIUDWPMScAJ4AJABApgB4gGgAb8IqgEFMC4zLjO4AQPIAQD4AQGYAgWgAooEmAMAiAYBkgcFMi4yLjGgB74QsgcFMC4yLjG4B_4D&sclient=img" title="arrozcontuco">Arroz con tuco y carne</a></em></strong></li>
+            <li><strong><em><a href="https://www.google.com/search?q=fideos+a+la+bolo%C3%B1esa&sca_esv=a980cca8ef080035&rlz=1C1ONGR_esAR1051AR1051&udm=2&biw=1366&bih=633&sxsrf=AHTn8zo-VjrnaZnkoCJu3VzH0YdSw6gwxQ%3A1747292290112&ei=gpAlaMTSBufb1sQPtpOC-QY&oq=fideos+a+&gs_lp=EgNpbWciCWZpZGVvcyBhICoCCAQyBxAjGCcYyQIyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI9zNQmgVY8h9wAXgAkAEAmAGLAaAB-QeqAQMwLjm4AQHIAQD4AQGYAgqgAuwIqAIKwgIKECMYJxjJAhjqAsICChAAGIAEGEMYigXCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIOEAAYgAQYsQMYgwEYigXCAg0QABiABBixAxhDGIoFmAMNkgcDMS45oAf0PrIHAzAuObgH3wg&sclient=img" title="fideos">Fideos a la boloñesa</a></em></strong></li>
+        </ul>
+        <p><em>Red social favorita<a href="https://ar.pinterest.com/" target="_blank"> Pinterest </a></em></p>
+        <p><strong>Yo preparando mi matecocido♥</strong></p>
+            <img src= "imagenes estatica/literalYO.jpg" width="300" height="300" class="marco2"></img>
+        <section>
+            <h2 style="margin-left: 403px;">Fotos de mis viajes꧂★</h2>
+            <div class="centrada">
+             <img src= "imagenes estatica/pic7.jpg" width="300" height="200" ></img> <img src= "imagenes estatica/pic4.jpg" width="300" height="200"></img> <img src= "imagenes estatica/pic1.jpg" width="300" height="200" ></img>
+             <img src= "imagenes estatica/pic3.jpg" width="300" height="200" ></img> <img src= "imagenes estatica/pic6.jpg" width="300" height="200"></img> <img src= "imagenes estatica/pic9.jpg" width="300" height="200" ></img>
+             <img src= "imagenes estatica/pic2.jpg" width="300" height="200" ></img> <img src= "imagenes estatica/pic10.jpg" width="300" height="200"></img> <img src= "imagenes estatica/pic8.jpg" width="300" height="200" ></img>
+             <img src= "imagenes estatica/pic11.jpg" width="200" height="300" ></img> <img src= "imagenes estatica/pic5.jpg" width="200" height="300"></img>
+            </div>
+        </section>
+        <section>
+            <h2>Videojuegos favoritos✩♥</h2>
+            <ul>
+                <li><strong><em>Mortal Kombat 9</em></strong></li>
+                <li><strong><em>Cuphead</em></strong></li>
+                <li><strong><em>God of War III</em></strong></li>
+                <li><strong><em>Roblox</em></strong></li>
+            </ul>
+        </section>
+        <footer>
+            <p style="margin-left: 23px;"><em>Contacto: luisanajparra@gmail.com</em></p>
+        </footer>
+    </body>
+</html>
